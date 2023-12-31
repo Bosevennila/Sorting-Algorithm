@@ -64,6 +64,8 @@ print(list_of_nums)
 ## Output:
 i)	#Selection Sort
 ![4 python](https://github.com/Bosevennila/Sorting-Algorithm/assets/144870486/f8a60e41-1c9f-4c95-8dce-364ff7b09ce6)
+
+
 ii)	#Insertion Sort
 ![image](https://github.com/Bosevennila/Sorting-Algorithm/assets/144870486/fdca1b6a-6ca2-4dfc-94e7-fee710a19455)
 
