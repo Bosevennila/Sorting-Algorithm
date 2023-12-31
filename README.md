@@ -67,6 +67,8 @@ i)	#Selection Sort
 
 
 ii)	#Insertion Sort
+
+
 ![image](https://github.com/Bosevennila/Sorting-Algorithm/assets/144870486/fdca1b6a-6ca2-4dfc-94e7-fee710a19455)
 
 
