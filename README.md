@@ -20,23 +20,50 @@ To write a program to perform selection sort and insertion sort using python pro
 ## Program:
 i)	#Selection Sort
 ```
+Program to sort the elements in the list using the Selection Sort algorithm.
+Developed by: CHANDRAPRIYADHARSHINI C
+RegisterNumber: 23013526
 
-
-
-
-
+def selection_sort(nums):
+    # write your code here using selection sort
+    for i in range(len(nums)):
+        lowest_value_index = i
+        for j in range(i+1, len(nums)):
+            if nums[j] < nums[lowest_value_index]:
+                lowest_value_index = j
+        nums[i], nums[lowest_value_index] = nums[lowest_value_index], nums[i]
+    
+    
+    
+list_of_nums = eval(input())
+# use the selection sort function
+# print the sorted list
+selection_sort(list_of_nums)
+print(list_of_nums)
 ```
+
 ii)	#Insertion Sort
 ```
+Program to sort the elements in the list using the Insertion Sort algorithm.
+Developed by: CHANDRAPRIYADHARSHINI C
+RegisterNumber: 23013526
 
-
-
-
-
-
+def insertion_sort(nums):
+    for i in range(1, len(nums)):
+        item_to_insert = nums[i]
+        j = i - 1
+        while j >= 0 and nums[j] > item_to_insert:
+            nums[j+1] = nums[j]
+            j -= 1
+        nums[j+1] = item_to_insert
+        
+list_of_nums = eval(input())
+insertion_sort(list_of_nums)
+print(list_of_nums)
 ```
-
 ## Output:
+![4 python](https://github.com/Bosevennila/Sorting-Algorithm/assets/144870486/f8a60e41-1c9f-4c95-8dce-364ff7b09ce6)
+![image](https://github.com/Bosevennila/Sorting-Algorithm/assets/144870486/fdca1b6a-6ca2-4dfc-94e7-fee710a19455)
 
 
 ## Result:
